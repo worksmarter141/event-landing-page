@@ -1,14 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/5e6471ad4b.js" crossorigin="anonymous"></script>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>Welcome to Rome</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,58 +34,79 @@
         </ul>
       </div>
     </nav>
-    <h1>Hello, world!</h1>
 
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Roma</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
 
-    <div>
-      <h2>Speakers</h2>
-      <p>My fellow citizens hear he hear he</p>
-      <div class="container">
+    <div class="text-center">
+      <h2 class="p-1">First Triumvirate</h2>
+      <p class="p-1 pb-4">My fellow citizens hear he hear he</p>
+      <div class="container pb-5 d-flex justify-content-center">
         <div class="row">
-          <div class="col-sm">
-            <div> <img src="https://howtodoright.com/wp-content/uploads/2019/02/jcaesar-bust-001-300x223.jpg" width="100px" height="100px"/> </div>
-            <div>
-              <h3>Cesear</h3>
+          <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+              <img src="https://howtodoright.com/wp-content/uploads/2019/02/jcaesar-bust-001-300x223.jpg" class="card-img-top img-size" height="100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gaius Julius Caesar</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-            <div>
-              <p>Emperorer</p>
+            <div class="card" style="width: 18rem;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Late_Roman_Republic_bust_in_the_Glyptothek%2C_Copenhagen.jpg/800px-Late_Roman_Republic_bust_in_the_Glyptothek%2C_Copenhagen.jpg" class="card-img-top img-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Marcus Licinius Crassus</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-            <div>
-              <p>&copy; copyright</p>
+            <div class="card" style="width: 18rem;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Pompeius_Kopenhagen.jpg" class="card-img-top img-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gnaeus Pompeius Magnus</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-          </div>
-          <div class="col-sm">
-            Octivia
-          </div>
-          <div class="col-sm">
-            Anthony
           </div>
         </div>
       </div>
     </div>
 
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
       <h1 class="display-4">Collosseum</h1>
       <p class="lead">Spartacus vs Maxiumus</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
 
+    <div class="container text-center pb-3">
+      <div class="row d-flex justify-content-center">
+        <div class="col-4">
+          <h2>Venue!</h2>
+          <p>Watch the fight of the year</p>          
+          <img src="https://colosseumrometickets.com/wp-content/uploads/2018/05/colosseum-history-810x405.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.1228881360244!2d12.490036850590581!3d41.89021417253365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseum!5e0!3m2!1sen!2sus!4v1623187917514!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row">
-        <div class="col-sm">
-          <h2>Venue!</h2>
-          <p>Watch the fight of the year</p>
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
+          <div class="col pb-2 iconSize">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook pr-1"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square pr-1"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram pr-1"></i></a>
+          </div>
+          <div class="col">
+            <h7 class="float-right">&#169 2021 moqup</h7>
+          </div>
       </div>
     </div>
 
